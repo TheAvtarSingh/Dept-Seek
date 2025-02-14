@@ -20,14 +20,22 @@
 2. Go to the **Extensions** marketplace (`Ctrl+Shift+X`).
 3. Search for **dept-seek** by ***Avtar Singh***.
 4. Click **Install**.
+
+   
+<img width="1207" alt="Screenshot 2025-02-14 at 3 55 39 PM" src="https://github.com/user-attachments/assets/abe7bc87-6b27-4136-90db-a1226625c5a2" />
+
 5. Enjoy real-time news while coding!
-Select News Category
 ## How to Use 🚀
 
 1. Go to the **Command Palette** or Use Combination of (`Ctrl+Shift+P`).
+   
+   <img width="1001" alt="Screenshot 2025-02-14 at 5 52 01 PM" src="https://github.com/user-attachments/assets/2eeae69a-56f6-44fa-8e25-0f150f0964fa" />
+
 2. Type **Select News Category**.
 3. Select your preferred news category (Tech, Business, Science, etc.).
 4. You will see News updates you in real-time!
+   
+<img width="1100" alt="Screenshot 2025-02-14 at 5 52 52 PM" src="https://github.com/user-attachments/assets/f2dfcb24-a411-4f38-92b0-ee00451d4f6b" />
 
 ## Customization ⚙️
 
