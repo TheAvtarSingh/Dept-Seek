@@ -10,6 +10,10 @@
 - 🔍 **Customizable News Sources** – Choose your preferred sources for tailored news updates.
 - 🌙 **Minimal Distraction Mode** – Non-intrusive UI to keep your focus on coding.
 
+## Prerequisites 🛠️
+-  **Minimal VSCODE Version** - 1.97.0
+-  **You 🤓**
+
 ## Installation 🛠️
 
 1. Open **Visual Studio Code**.
