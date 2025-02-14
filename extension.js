@@ -65,7 +65,7 @@ class NewsTreeDataProvider {
                 params: {
                     country: "us",
                     category: category ?? "technology",
-                    apiKey: "409f6e2f8a1b4be2a2e25954321225bb",
+                    apiKey: "<Your Key>",
                 },
             });
 console.log(response)
