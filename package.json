@@ -1,0 +1,68 @@
+{
+  "name": "dept-seek",
+  "displayName": "Dept Seek",
+  "publisher": "AvtarSingh",
+  "icon": "spellIcon.png",
+  "description": "A DeepSeek Alternative which will not send any data to the Originating Country so you can reliably use the model and chat with agent",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:dept-seek.openNews"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+    "activitybar": [
+      {
+        "id": "newsExplorer",
+        "title": "News",
+        "icon": "resources/news-icon.svg"
+      }
+    ]
+  },
+  "views": {
+    "newsExplorer": [
+      {
+        "id": "newsListView",
+        "name": "Latest News"
+      }
+    ]
+  },
+    "commands": [
+      {
+        "command": "dept-seek.refreshNews",
+        "title": "Refresh News"
+      },
+      {
+        "command": "dept-seek.openNewsInSidebar",
+        "title": "Get Details"
+      }
+      ,
+      {
+        "command": "dept-seek.selectCategory",
+        "title": "Select News Category"
+      }
+      ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.97.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.19.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
